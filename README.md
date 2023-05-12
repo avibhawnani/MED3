@@ -1,6 +1,6 @@
 # MED3 - Electronic Health Record System using React.js and Polygon Blockchain
 
-MED3 is an Electronic Health Record (EHR) system that utilizes blockchain technology for secure and efficient health data management. It is built on top of React.js and Polygon blockchain, leveraging the benefits of RainbowKit for UI design and Web3 Storage for data storage.
+MED3 is an Electronic Health Record (EHR) system that utilizes blockchain technology for secure and efficient health data management. It is built on top of React.js and Polygon blockchain, leveraging the benefits of RainbowKit and MaterialUI for UI design and Web3 Storage for data storage.
 
 ## Features
 
@@ -17,13 +17,15 @@ MED3 is an Electronic Health Record (EHR) system that utilizes blockchain techno
 - Node.js
 - Hardhat
 - SCSS
+- Solidity
+- React.js
 
 ### Installation
 
 1. Clone the repository and navigate to the project directory
 
 ```bash
-git clone https://github.com/<username>/med3.git
+git clone https://github.com/avibhawnani/med3.git
 cd med3
 ```
 
@@ -48,7 +50,7 @@ npx hardhat node
 5. Deploy the contracts to the local network
 
 ```bash
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.js --network polygon_mumbai
 ```
 
 6. Start the React.js application
@@ -83,3 +85,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - [SCSS](https://sass-lang.com/)
 - [RainbowKit](https://rainbowkit.co/)
 - [Web3 Storage](https://web3.storage/)
+- [Solidity](https://soliditylang.org/)
