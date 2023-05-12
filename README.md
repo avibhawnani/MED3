@@ -86,3 +86,28 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 - [RainbowKit](https://rainbowkit.co/)
 - [Web3 Storage](https://web3.storage/)
 - [Solidity](https://soliditylang.org/)
+
+
+## Proof of Work
+
+### Home Page
+
+![Screenshot (57)](https://github.com/avibhawnani/MED3/assets/88795320/fa31a522-3605-4ee1-97c4-cff57d9b61bb)
+
+![Screenshot (58)](https://github.com/avibhawnani/MED3/assets/88795320/5101ab5d-7f1a-4481-a976-648374e4600f)
+
+### Admin Dashboard
+
+![Screenshot (60)](https://github.com/avibhawnani/MED3/assets/88795320/480658e0-7043-4df6-840f-e87f9ba88d0e)
+
+### Staff Dashboard
+
+![Screenshot (65)](https://github.com/avibhawnani/MED3/assets/88795320/d1f8ba4c-b751-4245-94be-907d2cdee760)
+
+### Doctor Dashboard
+
+![Screenshot (73)](https://github.com/avibhawnani/MED3/assets/88795320/27a0d8e6-ab49-4772-b3d8-3a268e1e70d9)
+
+### Patient Dashboard
+
+![Screenshot (85)](https://github.com/avibhawnani/MED3/assets/88795320/439d1e98-a889-49ba-93db-10c6edb5c32f)
