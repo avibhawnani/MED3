@@ -1,0 +1,53 @@
+@import "../../../../css-config/mixins.scss";
+.al {
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    @include md{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button{
+        text-align: center;
+        height:60%;
+        width: 90%;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #71b7e6, #2123af);
+      }
+  }
+    
+  table {
+    border: 2px solid rgb(34, 67, 139);
+    width: 800px;
+    height: 400px;
+    @include md{
+        width: 1200px;
+        height: 200px;
+    }
+    
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    margin: 20px;
+    
+    
+  }
+    
+  td {
+    
+    text-align: center;
+    text-transform: uppercase;
+  }

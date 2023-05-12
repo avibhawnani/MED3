@@ -1,0 +1,45 @@
+@import "../../../css-config/mixins.scss";
+.inp-box-staff{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+    display: flex;
+  }
+.head-staff{
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    // overflow: hidden;
+    white-space: nowrap;
+}
+.inp-box-staff input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    // transition: all 0.3s ease;
+}
+.btn{
+    height: 45px;
+    margin: 35px 0;
+    
+    input{
+        text-align: center;
+        height: 100%;
+        width: 10%;
+        border-radius: 5px;
+        border: none;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #71b7e6, #2123af);
+      }
+
+  }

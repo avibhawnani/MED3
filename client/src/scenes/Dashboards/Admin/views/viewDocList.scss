@@ -1,0 +1,39 @@
+@import "../../../../css-config/mixins.scss";
+.ta {
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    @include md{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+    
+  table {
+    border: 2px solid rgb(34, 67, 139);
+    width: 800px;
+    height: 400px;
+    @include md{
+        width: 1200px;
+        height: 200px;
+    }
+    
+  }
+    
+  th {
+    border-bottom: 1px solid black;
+    text-transform: uppercase;
+    margin: 20px;
+    
+    
+  }
+    
+  td {
+    
+    text-align: center;
+    text-transform: uppercase;
+  }

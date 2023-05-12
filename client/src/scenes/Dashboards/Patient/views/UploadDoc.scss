@@ -1,0 +1,35 @@
+@import "../../../../css-config/mixins.scss";
+
+.cont-up{
+    .upload{
+        text-align: center;
+            margin: -6px;
+            height: 35px;
+            width: 35%;
+            border-radius: 5px;
+            text-transform: uppercase;
+            border: none;
+            color: #fff;
+            font-size: 15px;
+            // font-weight: 700;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #5ca8f0;
+            border-bottom: 3px solid #2a4b91;
+        @include md{
+            
+            height: 35px;
+            width: 10%;
+            font-size: 20px;
+        
+        }
+
+        
+        
+    
+}
+.textArea{
+    margin-right: 20px;
+}
+}

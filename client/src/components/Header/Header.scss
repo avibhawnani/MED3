@@ -1,0 +1,121 @@
+@import "../../css-config/mixins.scss";
+
+.main-header{
+    width: 100%;
+    padding: 0 20px;
+    background-color: #212121;
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    z-index: 99;
+    @include md{
+        padding: 0 40px;
+    }
+    .header-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: px;
+        @include md{
+            height: 70px;
+            padding-top: 0;
+        }
+        .left{
+            list-style-type: none;
+            display: none;
+            gap: 25px;
+            @include md{
+                display: flex;
+            }
+            li{
+                font-size: 14px;
+                font-weight: 600;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+            .dropdown {
+                position: relative;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                }
+                ul {
+                  position: absolute;
+                  top: 100%;
+                  left: 0;
+                  display: none;
+                  padding: 0;
+                  margin: 0;
+                  list-style: none;
+                  background-color: #fff;
+                  border: 1px solid #333;
+                  border-top: none;
+                  width: 200px;
+                  z-index: 1;
+            
+                  li {
+                    padding: 10px;
+                  }
+            
+                  a {
+                    color: #333;
+                  }
+                }
+            
+                &:hover {
+                  ul {
+                    display: block;
+                  }
+                }
+              }
+            }
+        .center{
+            font-size: 22px;
+            font-weight: 700;
+            cursor: pointer;
+            @include md{
+                font-size: 34px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .right{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            
+            @include md{
+                gap: 25px;
+            }
+            .custom-select {
+                position: relative;
+                font-family: Arial;
+                select {
+                    display: inline;
+                    margin-left: 10px;
+                    border-style: hidden;
+                    font-size: 15px;
+                    background-color: #212121;
+                    color: #ffffff;
+                    text-transform: uppercase;
+                
+                  }
+              }              
+                          
+        }
+    }
+    &.stickey-header{
+        position: sticky;
+        top: 0;
+        transform: translateY(-80px);
+        animation: stickeyHeader 0.3s ease forwards;
+    }
+}
+
+@keyframes stickeyHeader {
+    0% {transform: translateY(-80px);}
+    100% {transform: translateY(0);}
+}

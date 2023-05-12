@@ -1,0 +1,8 @@
+@import "../../../css-config/mixins.scss";
+.doc-dash{
+    display: flex;
+    .Comp{
+        text-align: center;
+        justify-content: center;
+    }
+}
