@@ -56,6 +56,7 @@ npx hardhat run scripts/deploy.js --network polygon_mumbai
 6. Start the React.js application
 
 ```bash
+cd client
 npm start
 ```
 
